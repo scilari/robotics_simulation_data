@@ -12,12 +12,12 @@ The csv files (`data/`) from Square (multimodal, ambiguous) and Maze (unimodal, 
 The pix_to_meter scale for the images is 15.0/675.0. We use a scaled  version of the original paper for more "metric" and interpretable units. The scaling factor is 0.1 (i.e. Kootstra's 150 units => 15 meters).
 
 ### Columns
-`run_index` - trajectory number
-`timestep` - discrete time step from 0 to 499 for each trajectory
-`true_x` - Ground truth x coordinate
-`true_y` - Ground truth y coordinate
-`true_theta` - Ground truth heading
-`control_x` - Robot control in x direction
-`control_y` - Robot control in y direction
-`control_theta` - Robot control in heading (followed by transition)
+`run_index` - trajectory number  
+`timestep` - discrete time step from 0 to 499 for each trajectory  
+`true_x` - Ground truth x coordinate  
+`true_y` - Ground truth y coordinate  
+`true_theta` - Ground truth heading  
+`control_x` - Robot control in x direction  
+`control_y` - Robot control in y direction  
+`control_theta` - Robot control in heading (followed by transition)  
 `lidar_readings` - Array of 16 lidar distance measurements in CCW order, starting from -pi (back of the robot)
