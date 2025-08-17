@@ -20,8 +20,8 @@ The robot if a differential-drive circular robot with a radius of 0.35 (m). The 
 `true_x` - Ground truth x coordinate  
 `true_y` - Ground truth y coordinate  
 `true_theta` - Ground truth heading  
-`control_x` - Robot control in x direction 
-`control_y` - Robot control in y direction 
+`control_x` - Robot control in x direction   
+`control_y` - Robot control in y direction   
 `control_theta` - Robot control in heading 
 `lidar_readings` - Array of 16 lidar distance measurements in CCW order, starting from -pi (back of the robot)
 
