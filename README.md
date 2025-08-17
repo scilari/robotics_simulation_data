@@ -26,8 +26,8 @@ The robot if a differential-drive circular robot with a radius of 0.35 (m). The 
 `lidar_readings` - Array of 16 lidar distance measurements in CCW order, starting from -pi (back of the robot)
 
 ## Exploring the data
-A Python Notebook `/notebooks/explore_trajectories.ipyb` illustrates basic data usage:
+A Python Notebook `/notebooks/explore_trajectories.ipyb` illustrates basic data usage. Example data visualized below:
 
-| Odometry | Lidar readings |
-|---------|---------|
-| ![](/images/visualization/odometry.png) | ![](images/visualization/lidar.png) |
+| Odometry (Square) | Odometry (Maze) | Lidar readings |
+|---------|---|---------|
+| ![](/images/visualization/odometry_square.png) | ![](images/visualization/odometry_maze.png) | ![](images/visualization/lidar.png) |
